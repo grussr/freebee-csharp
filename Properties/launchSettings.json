@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "freebee_csharp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7088",
+      "launchBrowser": false
+    }
+  }
+}
