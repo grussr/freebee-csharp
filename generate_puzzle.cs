@@ -13,7 +13,7 @@ namespace FreeBee.Function
         public generate_puzzle(ILoggerFactory loggerFactory)
         {
             _logger = loggerFactory.CreateLogger<generate_puzzle>();
-            wordList = File.ReadAllLines("wordlist.txt").ToList();
+            wordList = File.ReadAllLines(Path.Combine(AppContext.BaseDirectory, "wordlist.txt")).ToList();
         }
 
         [Function("generate_puzzle")]
